@@ -12,7 +12,7 @@ export default function Home() {
 
   const handleFlip = () => {
     if (!guess) return;
-    const outcome = Math.random() < 0.5 ? 'heads' : 'tails';
+    const outcome: 'heads' | 'tails' = Math.random() < 0.5 ? 'heads' : 'tails';
     setResult(outcome);
     setStep('result');
     setHistory((prev) => [{ guess, result: outcome }, ...prev].slice(0, 10));
