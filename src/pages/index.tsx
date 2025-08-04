@@ -50,7 +50,7 @@ export default function Home() {
       {/* Logo + Başlık */}
       <div className="z-10 flex flex-col items-center mb-6">
         <Image src="/logo.png" alt="Logo" width={96} height={96} className="mb-2" />
-        <h1 className="text-4xl font-bold">Eth OS Flip</h1>
+        <h1 className="text-4xl font-bold">Eth OS Flip Game</h1>
       </div>
 
       {step === 'select' && (
