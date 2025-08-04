@@ -49,8 +49,8 @@ export default function Home() {
 
       {/* Logo + Başlık */}
       <div className="z-10 flex flex-col items-center mb-6">
-        <Image src="/logo.png" alt="Logo" width={64} height={64} className="mb-2" />
-        <h1 className="text-4xl font-bold">Coin Flip Game</h1>
+        <Image src="/logo.png" alt="Logo" width={96} height={96} className="mb-2" />
+        <h1 className="text-4xl font-bold">Eth OS Flip</h1>
       </div>
 
       {step === 'select' && (
@@ -66,7 +66,7 @@ export default function Home() {
             </button>
           </div>
           <button onClick={handleFlip} disabled={!guess} className="border border-white px-6 py-3 mt-4">
-            FLIP COIN
+            FLIP OS!
           </button>
         </div>
       )}
